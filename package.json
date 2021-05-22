@@ -1,6 +1,6 @@
 {
   "name": "github-release-notes-generator",
-  "version": "1.2",
+  "version": "1.3",
   "description": "A small little node module that converts release notes of github releases into a json format",
   "main": "index.js",
   "scripts": {
