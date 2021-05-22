@@ -1,0 +1,14 @@
+name: 'Create Release Notes JSON'
+description: 'A small little node module that converts release notes of github releases into a json format.'
+inputs:
+  version:
+    description: 'Which version should we delete the assets from?'
+    required: false
+    default: ''
+  github-access-token:
+    description: 'The GitHub access token required to delete the assets & discover non released versions'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'
