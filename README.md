@@ -35,7 +35,7 @@ The version to delete the release assets for. If none is supplied, the package.j
 
 ```
 - name: Create Release Notes
-  uses: Kellojo/github-release-notes-generator@v1.3
+  uses: Kellojo/github-release-notes-generator@v1.4
   with:
     destination: './config/release-notes.json'
     github-access-token: ${{ secrets.github_token }}
