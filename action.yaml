@@ -1,5 +1,5 @@
-name: 'Create Release Notes JSON'
-description: 'A small little node module that converts release notes of github releases into a json format.'
+name: 'GitHub Release Notes JSON Generator'
+description: 'A small little GitHub action that converts release notes of github releases into a json format'
 inputs:
   version:
     description: 'Which version should we delete the assets from?'
