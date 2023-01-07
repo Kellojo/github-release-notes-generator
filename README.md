@@ -22,13 +22,13 @@ This file can then be used to i.e. create a release notes dialog within an app o
 
 ### `github-access-token`
 
-**Required** The GitHub access token. This is required to delete the release assets. Default ``.
+**Required** The GitHub access token. This is required to create the release notes. Default ``.
 
 ### `destination`
 **Required** Where should the resulting release notes be saved to (i.e. `./config/release-notes.json`)? Default ``.
 
 ### `version`
-The version to delete the release assets for. If none is supplied, the package.json is read to get the version.
+The version to create the release notes for. If none is supplied, the package.json is read to get the version.
 
 
 ## Example usage
